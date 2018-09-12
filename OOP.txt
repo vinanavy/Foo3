@@ -1,0 +1,37 @@
+public: có thể truy cập từ bất kỳ đâu.
+- protected: được phép truy cập từ class chứa thuộc tính đó và class dẫn xuất (class con) 
+kế thừa từ lớp cơ sở (class cha).
+- private: chỉ được truy cập từ class chứa thuộc tính đó.
+
+Nên dùng private và protected để tránh bị truy cập trực tiếp từ bên ngoài. 
+cũng giống như tiền nhà bạn thì bạn nên cất đi không để người ngoài dùng =)) 
+Để truy cập các thuộc tính private thì lúc này dùng đến các phương thức get/set.
+
+Từ khóa Is và As trong c#
+Is: để kiểm tra xem đối tượng có thuộc loại đó hay không
+As: nếu bạn muốn chuyển đổi các đối tượng từ loại này sang loại khác
+
+- Lập trình hướng đối tượng là gì?
+  + Là phương pháp lập trình lấy đối tượng làm nền tảng để xây dựng chương trình
+  + Đối tượng là gì? Được hiểu như một thực thể: người, vật, bảng dữ liệu,...
+  + Lớp là gì? Các đối tượng có đặc tính tương tự nhau được gom lại thành 1 lớp đối tượng
+  -> Lớp là khuôn mẫu còn đối tượng là một thể hiện cụ thể dựa trên khuôn mẫu đó
+  Ex: Car là lớp, đối tượng là xe toyota, honda, ford
+  Ưu điểm: dễ dàng quản lý code khi có sự thay đổi chương trình, 
+		   dễ mở rộng dự án, có tính bảo mật cao, tái sử dụng cao
+- Các tính chất của hướng đối tượng
+1. Tính đóng gói (Encapsulation)
+   Các dữ liệu và phương thức liên quan được đóng gói thành các lớp để tiện quản lý và sử dụng
+   Ngoài ra còn để che giấu một số thông tin và chi tiết cài đặt nội bộ để bên ngoài không thể nhìn thấy
+2. Tính trừu tượng (Abstraction)
+   Ẩn các chi tiết không cần thiết rồi trừu tượng thành các Interface và thiết kế xem chúng sẽ tương tác
+   với nhau như thế nào
+3. Tính kế thừa (Inheritance)
+   Lớp cha có thể chia sẻ dữ liệu với lớp con, các lớp con khỏi phải định nghĩa lại giúp chương trình 
+   ngắn gọn
+4. Tính đa hình (Polymorphism)
+   Là hiện tượng các đối tượng thuộc các lớp khác nhau có thể hiểu cùng một thông điệp theo cách khác nhau
+- Static 
+   
+   
+   
